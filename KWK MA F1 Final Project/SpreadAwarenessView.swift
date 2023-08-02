@@ -49,7 +49,10 @@ struct SpreadAwarenessView: View {
                     .font(.custom("Aileron Bold Italic", size: 20))
                     .foregroundColor(red)
                 
-                TextField("Name...", text: $name)
+                TextField(text: $name) {
+                    Text("Name...")
+                        .foregroundColor(lightCoral)
+                }
                     .font(.custom("Aileron Bold", size: 20))
                     .multilineTextAlignment(.center)
                     .font(.title)
@@ -65,7 +68,10 @@ struct SpreadAwarenessView: View {
                     .font(.custom("Aileron Bold Italic", size: 20))
                     .foregroundColor(red)
                 
-                TextField("Recipient...", text: $recipient)
+                TextField(text: $recipient) {
+                    Text("Recipient...")
+                        .foregroundColor(lightCoral)
+                }
                     .font(.custom("Aileron Bold", size: 20))
                     .multilineTextAlignment(.center)
                     .font(.title)
@@ -81,7 +87,10 @@ struct SpreadAwarenessView: View {
                     .font(.custom("Aileron Bold Italic", size: 20))
                     .foregroundColor(red)
                 
-                TextField("Something you learned...", text: $message)
+                TextField(text: $message){
+                    Text("Something you learned...")
+                        .foregroundColor(lightCoral)
+                }
                     .font(.custom("Aileron Bold", size: 20))
                     .multilineTextAlignment(.center)
                     .font(.title)
