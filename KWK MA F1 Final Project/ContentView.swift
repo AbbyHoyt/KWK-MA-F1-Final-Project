@@ -36,7 +36,7 @@ struct ContentView: View {
                     .foregroundColor(red)
                     
                 
-                Text("COMEBACK!")
+                Text("COMEBACK")
                     .font(.custom("Aileron Bold Italic", size: 28))
                     .foregroundColor(red)
                 
