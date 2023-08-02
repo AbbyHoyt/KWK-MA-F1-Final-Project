@@ -30,7 +30,18 @@ struct ContentView: View {
                     .cornerRadius(250)
                     .padding(5)
                     .frame(width: 200.0, height: 200.0)
+                
+                Text("coral")
+                    .font(.custom("Codec Pro ExtraBold", size: 55))
+                    .foregroundColor(red)
+                    .fontWeight(.black)
+                
+                Text("COMEBACK")
+                    .font(.custom("Aileron Bold Italic", size: 28))
+                    .foregroundColor(red)
+                
                 Spacer()
+                
             }
         }
     }

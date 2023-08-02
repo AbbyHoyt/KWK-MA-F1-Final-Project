@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7CE73F2A7A263B0097E60F /* Codec Pro ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE73E2A7A263B0097E60F /* Codec Pro ExtraBold.ttf */; };
+		7B7CE76D2A7A2B1C0097E60F /* Aileron-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE75C2A7A2B1C0097E60F /* Aileron-Light.otf */; };
+		7B7CE76E2A7A2B1C0097E60F /* Aileron-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE75D2A7A2B1C0097E60F /* Aileron-BoldItalic.otf */; };
+		7B7CE76F2A7A2B1C0097E60F /* Aileron-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE75E2A7A2B1C0097E60F /* Aileron-ThinItalic.otf */; };
+		7B7CE7702A7A2B1C0097E60F /* CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE75F2A7A2B1C0097E60F /* CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication.txt */; };
+		7B7CE7712A7A2B1C0097E60F /* Aileron-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7602A7A2B1C0097E60F /* Aileron-UltraLight.otf */; };
+		7B7CE7722A7A2B1C0097E60F /* Aileron-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7612A7A2B1C0097E60F /* Aileron-Heavy.otf */; };
+		7B7CE7732A7A2B1C0097E60F /* Aileron-UltraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7622A7A2B1C0097E60F /* Aileron-UltraLightItalic.otf */; };
+		7B7CE7742A7A2B1C0097E60F /* Aileron-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7632A7A2B1C0097E60F /* Aileron-LightItalic.otf */; };
+		7B7CE7752A7A2B1C0097E60F /* Aileron-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7642A7A2B1C0097E60F /* Aileron-Thin.otf */; };
+		7B7CE7762A7A2B1C0097E60F /* Aileron-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7652A7A2B1C0097E60F /* Aileron-HeavyItalic.otf */; };
+		7B7CE7772A7A2B1C0097E60F /* Aileron-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7662A7A2B1C0097E60F /* Aileron-SemiBoldItalic.otf */; };
+		7B7CE7782A7A2B1C0097E60F /* Aileron-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7672A7A2B1C0097E60F /* Aileron-SemiBold.otf */; };
+		7B7CE7792A7A2B1C0097E60F /* Aileron-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7682A7A2B1C0097E60F /* Aileron-Bold.otf */; };
+		7B7CE77A2A7A2B1C0097E60F /* Aileron-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE7692A7A2B1C0097E60F /* Aileron-Italic.otf */; };
+		7B7CE77B2A7A2B1C0097E60F /* Aileron-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE76A2A7A2B1C0097E60F /* Aileron-BlackItalic.otf */; };
+		7B7CE77C2A7A2B1C0097E60F /* Aileron-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE76B2A7A2B1C0097E60F /* Aileron-Black.otf */; };
+		7B7CE77D2A7A2B1C0097E60F /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */; };
 		DA2476762A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */; };
 		DA2476782A78610D009C5F6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2476772A78610D009C5F6F /* ContentView.swift */; };
 		DA24767A2A78610F009C5F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2476792A78610F009C5F6F /* Assets.xcassets */; };
@@ -14,6 +32,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B7CE73E2A7A263B0097E60F /* Codec Pro ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Codec Pro ExtraBold.ttf"; sourceTree = "<group>"; };
+		7B7CE75A2A7A28B80097E60F /* KWK-MA-F1-Final-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KWK-MA-F1-Final-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7B7CE75C2A7A2B1C0097E60F /* Aileron-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Light.otf"; sourceTree = "<group>"; };
+		7B7CE75D2A7A2B1C0097E60F /* Aileron-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-BoldItalic.otf"; sourceTree = "<group>"; };
+		7B7CE75E2A7A2B1C0097E60F /* Aileron-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-ThinItalic.otf"; sourceTree = "<group>"; };
+		7B7CE75F2A7A2B1C0097E60F /* CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication.txt"; sourceTree = "<group>"; };
+		7B7CE7602A7A2B1C0097E60F /* Aileron-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-UltraLight.otf"; sourceTree = "<group>"; };
+		7B7CE7612A7A2B1C0097E60F /* Aileron-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Heavy.otf"; sourceTree = "<group>"; };
+		7B7CE7622A7A2B1C0097E60F /* Aileron-UltraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		7B7CE7632A7A2B1C0097E60F /* Aileron-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-LightItalic.otf"; sourceTree = "<group>"; };
+		7B7CE7642A7A2B1C0097E60F /* Aileron-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Thin.otf"; sourceTree = "<group>"; };
+		7B7CE7652A7A2B1C0097E60F /* Aileron-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-HeavyItalic.otf"; sourceTree = "<group>"; };
+		7B7CE7662A7A2B1C0097E60F /* Aileron-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		7B7CE7672A7A2B1C0097E60F /* Aileron-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-SemiBold.otf"; sourceTree = "<group>"; };
+		7B7CE7682A7A2B1C0097E60F /* Aileron-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Bold.otf"; sourceTree = "<group>"; };
+		7B7CE7692A7A2B1C0097E60F /* Aileron-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Italic.otf"; sourceTree = "<group>"; };
+		7B7CE76A2A7A2B1C0097E60F /* Aileron-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-BlackItalic.otf"; sourceTree = "<group>"; };
+		7B7CE76B2A7A2B1C0097E60F /* Aileron-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Black.otf"; sourceTree = "<group>"; };
+		7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
 		DA2476722A78610D009C5F6F /* KWK MA F1 Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK MA F1 Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_MA_F1_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		DA2476772A78610D009C5F6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B7CE75B2A7A2B1C0097E60F /* aileron */ = {
+			isa = PBXGroup;
+			children = (
+				7B7CE75C2A7A2B1C0097E60F /* Aileron-Light.otf */,
+				7B7CE75D2A7A2B1C0097E60F /* Aileron-BoldItalic.otf */,
+				7B7CE75E2A7A2B1C0097E60F /* Aileron-ThinItalic.otf */,
+				7B7CE75F2A7A2B1C0097E60F /* CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication.txt */,
+				7B7CE7602A7A2B1C0097E60F /* Aileron-UltraLight.otf */,
+				7B7CE7612A7A2B1C0097E60F /* Aileron-Heavy.otf */,
+				7B7CE7622A7A2B1C0097E60F /* Aileron-UltraLightItalic.otf */,
+				7B7CE7632A7A2B1C0097E60F /* Aileron-LightItalic.otf */,
+				7B7CE7642A7A2B1C0097E60F /* Aileron-Thin.otf */,
+				7B7CE7652A7A2B1C0097E60F /* Aileron-HeavyItalic.otf */,
+				7B7CE7662A7A2B1C0097E60F /* Aileron-SemiBoldItalic.otf */,
+				7B7CE7672A7A2B1C0097E60F /* Aileron-SemiBold.otf */,
+				7B7CE7682A7A2B1C0097E60F /* Aileron-Bold.otf */,
+				7B7CE7692A7A2B1C0097E60F /* Aileron-Italic.otf */,
+				7B7CE76A2A7A2B1C0097E60F /* Aileron-BlackItalic.otf */,
+				7B7CE76B2A7A2B1C0097E60F /* Aileron-Black.otf */,
+				7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */,
+			);
+			path = aileron;
+			sourceTree = "<group>";
+		};
 		DA2476692A78610D009C5F6F = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +112,12 @@
 		DA2476742A78610D009C5F6F /* KWK MA F1 Final Project */ = {
 			isa = PBXGroup;
 			children = (
+				7B7CE75A2A7A28B80097E60F /* KWK-MA-F1-Final-Project-Info.plist */,
 				DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */,
 				DA2476772A78610D009C5F6F /* ContentView.swift */,
 				DA2476792A78610F009C5F6F /* Assets.xcassets */,
+				7B7CE75B2A7A2B1C0097E60F /* aileron */,
+				7B7CE73E2A7A263B0097E60F /* Codec Pro ExtraBold.ttf */,
 				DA24767B2A78610F009C5F6F /* Preview Content */,
 			);
 			path = "KWK MA F1 Final Project";
@@ -126,7 +190,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA24767D2A78610F009C5F6F /* Preview Assets.xcassets in Resources */,
+				7B7CE73F2A7A263B0097E60F /* Codec Pro ExtraBold.ttf in Resources */,
 				DA24767A2A78610F009C5F6F /* Assets.xcassets in Resources */,
+				7B7CE77C2A7A2B1C0097E60F /* Aileron-Black.otf in Resources */,
+				7B7CE7782A7A2B1C0097E60F /* Aileron-SemiBold.otf in Resources */,
+				7B7CE7702A7A2B1C0097E60F /* CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication.txt in Resources */,
+				7B7CE7762A7A2B1C0097E60F /* Aileron-HeavyItalic.otf in Resources */,
+				7B7CE7712A7A2B1C0097E60F /* Aileron-UltraLight.otf in Resources */,
+				7B7CE7752A7A2B1C0097E60F /* Aileron-Thin.otf in Resources */,
+				7B7CE77A2A7A2B1C0097E60F /* Aileron-Italic.otf in Resources */,
+				7B7CE7742A7A2B1C0097E60F /* Aileron-LightItalic.otf in Resources */,
+				7B7CE76E2A7A2B1C0097E60F /* Aileron-BoldItalic.otf in Resources */,
+				7B7CE7732A7A2B1C0097E60F /* Aileron-UltraLightItalic.otf in Resources */,
+				7B7CE77B2A7A2B1C0097E60F /* Aileron-BlackItalic.otf in Resources */,
+				7B7CE7722A7A2B1C0097E60F /* Aileron-Heavy.otf in Resources */,
+				7B7CE76D2A7A2B1C0097E60F /* Aileron-Light.otf in Resources */,
+				7B7CE76F2A7A2B1C0097E60F /* Aileron-ThinItalic.otf in Resources */,
+				7B7CE7772A7A2B1C0097E60F /* Aileron-SemiBoldItalic.otf in Resources */,
+				7B7CE7792A7A2B1C0097E60F /* Aileron-Bold.otf in Resources */,
+				7B7CE77D2A7A2B1C0097E60F /* Aileron-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KWK MA F1 Final Project/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KWK-MA-F1-Final-Project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +380,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KWK MA F1 Final Project/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KWK-MA-F1-Final-Project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
