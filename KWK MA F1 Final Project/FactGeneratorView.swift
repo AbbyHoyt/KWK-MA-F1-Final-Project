@@ -17,11 +17,51 @@ struct FactGeneratorView: View {
     let cream = Color(red: 0.945, green: 0.875, blue: 0.808)
     let brown = Color(red: 0.459, green: 0.247, blue: 0.196)
     
+    // Array With Facts
+    var reefFacts = ["Corals have growth rings like trees!", "You can see the Great Barrier Reef from space!", "Make sure to get reef safe sunscreen, sunscreen can bleach the coral, damage DNA, and deform the young.", "Coral reef decline is happening at a rate 2x as fast as rainforest decline.", "Most corals today are between 5,000 and 10,000 years old.", "The first coral reefs formed 240 million years ago.", "Up to ½ of coral reefs are either already lost or severely damaged.", "Scientists predict by 2050 75% of coral reefs will be threatened.", "Coral reefs are known as the rainforests of the sea!"]
+    
+    @State private var reefFact = "..."
+    @State private var buttonText = "learn a fact about coral reefs"
+    
     var body: some View {
         ZStack {
             // Background Color, Ignore Safe Area
             coral
                 .ignoresSafeArea()
+            
+            VStack {
+                Text("learn about the issue")
+                    .font(.custom("Codec Pro ExtraBold", size: 35))
+                    .foregroundColor(red)
+                    .multilineTextAlignment(.center)
+                    .padding(10)
+                
+                Text("Click the button to learn more about coral reef decline!")
+                      .font(.custom("Aileron Bold", size: 20))
+                      .foregroundColor(red)
+                      .multilineTextAlignment(.center)
+                      .padding()
+                
+                Button(buttonText) {
+                    let randomInt = Int.random(in: 0..<reefFacts.count)
+                    reefFact = reefFacts[randomInt]
+                    buttonText = "learn another fact about coral reefs"
+                }
+                .font(.custom("Codec Pro ExtraBold", size: 20))
+                .padding(10)
+                .foregroundColor(cream)
+                .background(brown)
+                .cornerRadius(20)
+                
+                Text(reefFact)
+                    .font(.custom("Aileron Bold Italic", size: 20))
+                    .foregroundColor(red)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
+                Spacer()
+            }
+        
         }
     }
 }

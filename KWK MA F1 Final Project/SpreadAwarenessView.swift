@@ -39,8 +39,9 @@ struct SpreadAwarenessView: View {
                     .padding(10)
                 
               Text("Fill out the fields below to generate a personalized message to share with a leader or representative in your community.")
-                    .font(.custom("Aileron Bold Italic", size: 20))
+                    .font(.custom("Aileron Bold", size: 20))
                     .foregroundColor(red)
+                    .multilineTextAlignment(.center)
                     .padding()
                                 
                 // Name
@@ -101,11 +102,11 @@ struct SpreadAwarenessView: View {
                 .cornerRadius(20)
                 
                 Text(generatedMessage)
-                    .font(.custom("Aileron Bold Italic", size: 20))
+                    .font(.custom("Aileron Bold", size: 20))
                     .foregroundColor(red)
                     .padding()
                 
-                    .padding(.bottom, 180.0)
+                   // .padding(.bottom, 180.0)
                 
                // Spacer()
             }
