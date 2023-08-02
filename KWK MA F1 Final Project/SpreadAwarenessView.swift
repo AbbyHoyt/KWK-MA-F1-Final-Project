@@ -24,35 +24,37 @@ struct SpreadAwarenessView: View {
     @State private var generatedMessage = ""
     
     var body: some View {
-       
+        
         ZStack {
             // Background Color, Ignore Safe Area
             coral
-            .ignoresSafeArea()
+                .ignoresSafeArea()
             
-            VStack {
-                // Title
-                Text("spread awareness")
-                    .font(.custom("Codec Pro ExtraBold", size: 35))
-                    .foregroundColor(red)
-                    .multilineTextAlignment(.center)
-                    .padding(10)
+            ScrollView {
                 
-              Text("Fill out the fields below to generate a personalized message to share with a leader or representative in your community.")
-                    .font(.custom("Aileron Bold", size: 20))
-                    .foregroundColor(red)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                                
-                // Name
-                Text("WHAT IS YOUR NAME?")
-                    .font(.custom("Aileron Bold Italic", size: 20))
-                    .foregroundColor(red)
-                
-                TextField(text: $name) {
-                    Text("Name...")
-                        .foregroundColor(lightCoral)
-                }
+                VStack {
+                    // Title
+                    Text("spread awareness")
+                        .font(.custom("Codec Pro ExtraBold", size: 35))
+                        .foregroundColor(red)
+                        .multilineTextAlignment(.center)
+                        .padding(10)
+                    
+                    Text("Fill out the fields below to generate a personalized message to share with a leader or representative in your community.")
+                        .font(.custom("Aileron Bold", size: 20))
+                        .foregroundColor(red)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    
+                    // Name
+                    Text("WHAT IS YOUR NAME?")
+                        .font(.custom("Aileron Bold Italic", size: 20))
+                        .foregroundColor(red)
+                    
+                    TextField(text: $name) {
+                        Text("Name...")
+                            .foregroundColor(lightCoral)
+                    }
                     .font(.custom("Aileron Bold", size: 20))
                     .multilineTextAlignment(.center)
                     .font(.title)
@@ -63,15 +65,15 @@ struct SpreadAwarenessView: View {
                     .padding(.trailing, 10.0 )
                     .padding(.leading, 10.0)
                     
-                // Recipient
-                Text("WHO ARE YOU WRITING?")
-                    .font(.custom("Aileron Bold Italic", size: 20))
-                    .foregroundColor(red)
-                
-                TextField(text: $recipient) {
-                    Text("Recipient...")
-                        .foregroundColor(lightCoral)
-                }
+                    // Recipient
+                    Text("WHO ARE YOU WRITING?")
+                        .font(.custom("Aileron Bold Italic", size: 20))
+                        .foregroundColor(red)
+                    
+                    TextField(text: $recipient) {
+                        Text("Recipient...")
+                            .foregroundColor(lightCoral)
+                    }
                     .font(.custom("Aileron Bold", size: 20))
                     .multilineTextAlignment(.center)
                     .font(.title)
@@ -81,16 +83,16 @@ struct SpreadAwarenessView: View {
                     .padding(.bottom, 20.0)
                     .padding(.trailing, 10.0 )
                     .padding(.leading, 10.0)
-                
-                // Message
-                Text("WHAT IS YOUR MESSAGE?")
-                    .font(.custom("Aileron Bold Italic", size: 20))
-                    .foregroundColor(red)
-                
-                TextField(text: $message){
-                    Text("Something you learned...")
-                        .foregroundColor(lightCoral)
-                }
+                    
+                    // Message
+                    Text("WHAT IS YOUR MESSAGE?")
+                        .font(.custom("Aileron Bold Italic", size: 20))
+                        .foregroundColor(red)
+                    
+                    TextField(text: $message){
+                        Text("Something you learned...")
+                            .foregroundColor(lightCoral)
+                    }
                     .font(.custom("Aileron Bold", size: 20))
                     .multilineTextAlignment(.center)
                     .font(.title)
@@ -100,28 +102,24 @@ struct SpreadAwarenessView: View {
                     .padding(.bottom, 20.0)
                     .padding(.trailing, 10.0)
                     .padding(.leading, 10.0)
-                
-                Button("generate message") {
-                    generatedMessage = "Dear \(recipient), my name is \(name). I am writing to inform you about coral reef decline. One fun fact I learned from this app was \(message)."
+                    
+                    Button("generate message") {
+                        generatedMessage = "Dear \(recipient), my name is \(name). I am writing to inform you about coral reef decline. One fun fact I learned from this app was \(message)."
+                    }
+                    .font(.custom("Codec Pro ExtraBold", size: 20))
+                    .padding(10)
+                    .foregroundColor(cream)
+                    .background(brown)
+                    .cornerRadius(20)
+                    
+                    Text(generatedMessage)
+                        .font(.custom("Aileron Bold", size: 20))
+                        .foregroundColor(red)
+                        .padding()
                 }
-                .font(.custom("Codec Pro ExtraBold", size: 20))
-                .padding(10)
-                .foregroundColor(cream)
-                .background(brown)
-                .cornerRadius(20)
-                
-                Text(generatedMessage)
-                    .font(.custom("Aileron Bold", size: 20))
-                    .foregroundColor(red)
-                    .padding()
-                
-                   // .padding(.bottom, 180.0)
-                
-               // Spacer()
             }
         }
     }
-
 }
 
 struct SpreadAwarenessView_Previews: PreviewProvider {
