@@ -58,6 +58,28 @@ struct ContentView: View {
                         }
                         .padding()
                         
+                        HStack {
+                            Text("90%")
+                                .font(.custom("Codec Pro ExtraBold", size: 70))
+                                .foregroundColor(red)
+                            
+                            Text("OF DAMAGE WAS DONE BY HUMANS")
+                                .font(.custom("Aileron Bold Italic", size: 25))
+                                .foregroundColor(red)
+                        }
+                        .padding()
+                        
+                        
+                      /*  Button("how can I help?") {
+                            
+                        }
+                        .font(.custom("Codec Pro ExtraBold", size: 20))
+                        .padding(10)
+                        .foregroundColor(cream)
+                        .background(brown)
+                        .cornerRadius(20)
+                        .padding(.bottom, 10.0) */
+                        
                         Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
                         
                     }
