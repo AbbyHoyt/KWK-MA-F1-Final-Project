@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
     
     // Define Color Palette
     let red = Color(red: 0.875, green: 0.318, blue: 0.118)
@@ -17,7 +16,8 @@ struct ContentView: View {
     let coral = Color(red: 0.933, green: 0.584, blue: 0.447)
     let cream = Color(red: 0.945, green: 0.875, blue: 0.808)
     let brown = Color(red: 0.459, green: 0.247, blue: 0.196)
-       
+    
+    var body: some View {
         ZStack {
             // Background Color, Ignore Safe Area
             coral
@@ -30,15 +30,6 @@ struct ContentView: View {
                     .cornerRadius(250)
                     .padding(5)
                     .frame(width: 200.0, height: 200.0)
-                
-                Text("coral")
-                    .font(.custom("Codec Pro ExtraBold", size: 55))
-                    .foregroundColor(red)
-                    
-                
-                Text("COMEBACK")
-                    .font(.custom("Aileron Bold Italic", size: 28))
-                    .foregroundColor(red)
                 
                 // Spacer()
                 
