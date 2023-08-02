@@ -34,13 +34,40 @@ struct ContentView: View {
                 Text("coral")
                     .font(.custom("Codec Pro ExtraBold", size: 55))
                     .foregroundColor(red)
-                    .fontWeight(.black)
+                    
                 
                 Text("COMEBACK")
                     .font(.custom("Aileron Bold Italic", size: 28))
                     .foregroundColor(red)
                 
                 Spacer()
+                
+                VStack {
+                    HStack {
+                        Text("75%")
+                            .font(.custom("Codec Pro ExtraBold", size: 55))
+                            .foregroundColor(red)
+                        
+                        Text("OF CORAL REEFS THREATENED BY 2050")
+                            .font(.custom("Aileron Bold Italic", size: 28))
+                            .foregroundColor(red)
+                    }
+                    
+                    .padding()
+                    
+                    HStack {
+                        Text("OF REEFS DAMAGED BEYOND REPAIR")
+                            .font(.custom("Aileron Bold Italic", size: 28))
+                            .foregroundColor(red)
+                        
+                        Text("25%")
+                            .font(.custom("Codec Pro ExtraBold", size: 55))
+                            .foregroundColor(red)
+                        
+                        
+                    }
+                    
+                }
                 
             }
         }
