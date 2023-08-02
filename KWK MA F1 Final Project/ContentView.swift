@@ -44,7 +44,17 @@ struct ContentView: View {
                                     .font(.custom("Aileron Bold Italic", size: 25))
                                     .foregroundColor(red)
                             }
+                            .padding()
                             
+                            HStack {
+                                Text("30%")
+                                    .font(.custom("Codec Pro ExtraBold", size: 70))
+                                    .foregroundColor(red)
+                                
+                                Text("WILL SERIOUSLY DEGRADE IN THE NEXT DECADE")
+                                    .font(.custom("Aileron Bold Italic", size: 25))
+                                    .foregroundColor(red)
+                            }
                             .padding()
                             
                             HStack {
