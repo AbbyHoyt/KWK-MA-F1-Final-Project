@@ -40,34 +40,34 @@ struct ContentView: View {
                     .font(.custom("Aileron Bold Italic", size: 28))
                     .foregroundColor(red)
                 
-                Spacer()
+                // Spacer()
                 
                 VStack {
                     HStack {
                         Text("75%")
-                            .font(.custom("Codec Pro ExtraBold", size: 55))
+                            .font(.custom("Codec Pro ExtraBold", size: 70))
                             .foregroundColor(red)
                         
                         Text("OF CORAL REEFS THREATENED BY 2050")
-                            .font(.custom("Aileron Bold Italic", size: 28))
+                            .font(.custom("Aileron Bold Italic", size: 25))
                             .foregroundColor(red)
                     }
                     
                     .padding()
                     
                     HStack {
-                        Text("OF REEFS DAMAGED BEYOND REPAIR")
-                            .font(.custom("Aileron Bold Italic", size: 28))
-                            .foregroundColor(red)
-                        
                         Text("25%")
-                            .font(.custom("Codec Pro ExtraBold", size: 55))
+                            .font(.custom("Codec Pro ExtraBold", size: 70))
                             .foregroundColor(red)
                         
-                        
+                        Text("OF REEFS DAMAGED BEYOND REPAIR")
+                            .font(.custom("Aileron Bold Italic", size: 25))
+                            .foregroundColor(red)
                     }
+                    .padding()
                     
                 }
+                Spacer()
                 
             }
         }
