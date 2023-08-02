@@ -24,6 +24,16 @@ struct LearnView: View {
                     .ignoresSafeArea()
                 ScrollView {
                     VStack {
+                        
+                        NavigationLink(destination: ContentView()){
+                            Image("logo")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(250)
+                                .padding(5)
+                                .frame(width: 200.0, height: 200.0)
+                        }
+                        
                         Text("explore")
                             .font(.custom("Codec Pro ExtraBold", size: 35))
                             .foregroundColor(red)
@@ -40,7 +50,6 @@ struct LearnView: View {
                                 .fontWeight(.semibold)
                                 .navigationTitle("Back to Explore")
                                 .navigationBarTitleDisplayMode(.inline)
-                                .navigationBarHidden(true)
                         }
                             
                         NavigationLink(destination: SpreadAwarenessView()){
