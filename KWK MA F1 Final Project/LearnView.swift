@@ -26,12 +26,12 @@ struct LearnView: View {
                     VStack {
                         
                         NavigationLink(destination: ContentView()){
-                            Image("logo")
+                            Image("home")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .cornerRadius(250)
                                 .padding(5)
-                                .frame(width: 200.0, height: 200.0)
+                                .frame(width: 75.0, height: 75.0)
                         }
                         
                         Text("explore")
