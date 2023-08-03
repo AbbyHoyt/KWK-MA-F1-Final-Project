@@ -63,7 +63,7 @@ struct QuizView: View {
                             .padding(.top, 20.0)
                         
                         HStack {
-                            Button("True") {
+                            Button("true") {
                                 correctScore += 1
                                 print(correctScore)
                             }
@@ -73,7 +73,7 @@ struct QuizView: View {
                             .background(brown)
                             .cornerRadius(20)
                             
-                            Button("False") {
+                            Button("false") {
                                 correctScore += 0
                                 print(correctScore)
                             }
@@ -93,7 +93,7 @@ struct QuizView: View {
                             .padding(.top, 20.0)
                         
                         HStack {
-                            Button("True") {
+                            Button("true") {
                                 correctScore += 0
                                 print(correctScore)
                             }
@@ -103,7 +103,7 @@ struct QuizView: View {
                             .background(brown)
                             .cornerRadius(20)
                             
-                            Button("False") {
+                            Button("false") {
                                 correctScore += 1
                                 print(correctScore)
                             }
@@ -123,7 +123,7 @@ struct QuizView: View {
                             .padding(.top, 20.0)
                         
                         HStack {
-                            Button("True") {
+                            Button("true") {
                                 correctScore += 1
                                 print(correctScore)
                             }
@@ -133,7 +133,7 @@ struct QuizView: View {
                             .background(brown)
                             .cornerRadius(20)
                             
-                            Button("False") {
+                            Button("false") {
                                 correctScore += 0
                                 print(correctScore)
                             }
@@ -156,7 +156,7 @@ struct QuizView: View {
                             .padding(.top, 20.0)
                     
                         HStack {
-                            Button("True") {
+                            Button("true") {
                                 correctScore += 1
                                 print(correctScore)
                             }
@@ -166,7 +166,7 @@ struct QuizView: View {
                             .background(brown)
                             .cornerRadius(20)
                             
-                            Button("False") {
+                            Button("false") {
                                 correctScore += 0
                                 print(correctScore)
                             }
@@ -186,7 +186,7 @@ struct QuizView: View {
                             .padding(.top, 20.0)
                     
                         HStack {
-                            Button("True") {
+                            Button("true") {
                                 correctScore += 0
                                 print(correctScore)
                             }
@@ -196,7 +196,7 @@ struct QuizView: View {
                             .background(brown)
                             .cornerRadius(20)
                             
-                            Button("False") {
+                            Button("false") {
                                 correctScore += 1
                                 print(correctScore)
                             }
@@ -209,7 +209,7 @@ struct QuizView: View {
                         
                         .padding(.bottom, 20.0)
                         
-                        Button("Tell Me How I Did") {
+                        Button("tell me how I did") {
                            quizResult = "You got \(correctScore)/5 questions correct!"
                         }
                         .font(.custom("Codec Pro ExtraBold", size: 20))
@@ -221,7 +221,7 @@ struct QuizView: View {
                         Text(quizResult)
                             .padding(10)
                         
-                        Button("Restart Quiz") {
+                        Button("restart quiz") {
                             correctScore = 0
                             print(correctScore)
                             quizResult = "..."

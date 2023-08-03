@@ -24,57 +24,128 @@ struct FactGeneratorView: View {
     @State private var buttonText = "learn a fact about coral reefs"
     
     var body: some View {
-        ZStack {
-            // Background Color, Ignore Safe Area
-            coral
-                .ignoresSafeArea()
-            
-            ScrollView {
-                VStack(){
-                    
-                    NavigationLink(destination: LearnView()){
-                        Image("menu")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .cornerRadius(250)
-                            .padding(5)
-                            .frame(width: 75.0, height: 75.0)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 10.0)
-                    }
-                    .navigationBarBackButtonHidden()
-                    
-                    VStack {
-                        Text("learn about the issue")
-                            .font(.custom("Codec Pro ExtraBold", size: 35))
-                            .foregroundColor(red)
-                            .multilineTextAlignment(.center)
-                            .padding(10)
+        NavigationStack {
+            ZStack {
+                // Background Color, Ignore Safe Area
+                coral
+                    .ignoresSafeArea()
+                
+                ScrollView {
+                    VStack(){
                         
-                        Text("Click the button to learn more about coral reef decline!")
-                            .font(.custom("Aileron Bold", size: 20))
-                            .foregroundColor(red)
-                            .multilineTextAlignment(.center)
-                            .padding()
-                        
-                        Button(buttonText) {
-                            let randomInt = Int.random(in: 0..<reefFacts.count)
-                            reefFact = reefFacts[randomInt]
-                            buttonText = "learn another fact about coral reefs"
+                        NavigationLink(destination: LearnView()){
+                            Image("menu")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(250)
+                                .padding(5)
+                                .frame(width: 75.0, height: 75.0)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding(.leading, 10.0)
                         }
-                        .font(.custom("Codec Pro ExtraBold", size: 20))
-                        .padding(10)
-                        .foregroundColor(cream)
-                        .background(brown)
-                        .cornerRadius(20)
+                        .navigationBarBackButtonHidden()
                         
-                        Text(reefFact)
-                            .font(.custom("Aileron Bold Italic", size: 20))
-                            .foregroundColor(red)
-                            .multilineTextAlignment(.center)
-                            .padding()
+                        VStack {
+                            Text("learn about the issue")
+                                .font(.custom("Codec Pro ExtraBold", size: 35))
+                                .foregroundColor(red)
+                                .multilineTextAlignment(.center)
+                                .padding(10)
+                            
+                            Image("earth")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(5)
+                                .frame(width: 200.0, height: 200.0)
+                            
+                            Text("Climate Change")
+                                .font(.custom("Aileron Bold Italic", size: 25))
+                                .foregroundColor(red)
+                                .textCase(.uppercase)
+                            
+                            NavigationLink(destination: ClimateChangeView()){
+                                Text("learn more")
+                                    .font(.custom("Codec Pro ExtraBold", size: 20))
+                                    .foregroundColor(cream)
+                                    .padding(10)
+                                    .background(brown)
+                                    .cornerRadius(20)
+                                    .fontWeight(.semibold)
+                            }
+                            .navigationBarBackButtonHidden()
+                            
+                            Image("plastic")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(5)
+                                .frame(width: 200.0, height: 200.0)
+                            
+                            Text("Plastic Pollution")
+                                .font(.custom("Aileron Bold Italic", size: 25))
+                                .foregroundColor(red)
+                                .textCase(.uppercase)
+                            
+                            NavigationLink(destination: PlasticPollutionView()){
+                                Text("learn more")
+                                    .font(.custom("Codec Pro ExtraBold", size: 20))
+                                    .foregroundColor(cream)
+                                    .padding(10)
+                                    .background(brown)
+                                    .cornerRadius(20)
+                                    .fontWeight(.semibold)
+                            }
+                            .navigationBarBackButtonHidden()
+                            
+                            Image("sunscreen")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(5)
+                                .frame(width: 200.0, height: 200.0)
+                            
+                            Text("Sunscreen")
+                                .font(.custom("Aileron Bold Italic", size: 25))
+                                .foregroundColor(red)
+                                .textCase(.uppercase)
+                        }
                         
-                        Spacer()
+                        NavigationLink(destination: SunscreenView()){
+                            Text("learn more")
+                                .font(.custom("Codec Pro ExtraBold", size: 20))
+                                .foregroundColor(cream)
+                                .padding(10)
+                                .background(brown)
+                                .cornerRadius(20)
+                                .fontWeight(.semibold)
+                        }
+                        .navigationBarBackButtonHidden()
+                        
+                        VStack {
+                            
+                            Text("Click the button to learn more about coral reef decline!")
+                                .font(.custom("Aileron Bold", size: 20))
+                                .foregroundColor(red)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                            
+                            Button(buttonText) {
+                                let randomInt = Int.random(in: 0..<reefFacts.count)
+                                reefFact = reefFacts[randomInt]
+                                buttonText = "learn another fact about coral reefs"
+                            }
+                            .font(.custom("Codec Pro ExtraBold", size: 20))
+                            .padding(10)
+                            .foregroundColor(cream)
+                            .background(brown)
+                            .cornerRadius(20)
+                            
+                            Text(reefFact)
+                                .font(.custom("Aileron Bold Italic", size: 20))
+                                .foregroundColor(red)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                            
+                            Spacer()
+                        }
                     }
                 }
             }

@@ -27,6 +27,9 @@
 		7B7CE77D2A7A2B1C0097E60F /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */; };
 		7B7CE7892A7B03C20097E60F /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE7882A7B03C20097E60F /* LearnView.swift */; };
 		7B7CE78B2A7B26FA0097E60F /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */; };
+		7B7CE7932A7C42A50097E60F /* PlasticPollutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE7922A7C42A50097E60F /* PlasticPollutionView.swift */; };
+		7B7CE7952A7C42B40097E60F /* ClimateChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE7942A7C42B40097E60F /* ClimateChangeView.swift */; };
+		7B7CE7972A7C42BF0097E60F /* SunscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE7962A7C42BF0097E60F /* SunscreenView.swift */; };
 		DA2476762A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */; };
 		DA2476782A78610D009C5F6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2476772A78610D009C5F6F /* ContentView.swift */; };
 		DA24767A2A78610F009C5F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2476792A78610F009C5F6F /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 		7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
 		7B7CE7882A7B03C20097E60F /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
 		7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		7B7CE7922A7C42A50097E60F /* PlasticPollutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticPollutionView.swift; sourceTree = "<group>"; };
+		7B7CE7942A7C42B40097E60F /* ClimateChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeView.swift; sourceTree = "<group>"; };
+		7B7CE7962A7C42BF0097E60F /* SunscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunscreenView.swift; sourceTree = "<group>"; };
 		DA2476722A78610D009C5F6F /* KWK MA F1 Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK MA F1 Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_MA_F1_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		DA2476772A78610D009C5F6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +143,9 @@
 				7B7CE7882A7B03C20097E60F /* LearnView.swift */,
 				DAF4F1C62A7AFA5600670F29 /* FactGeneratorView.swift */,
 				DA2476792A78610F009C5F6F /* Assets.xcassets */,
+				7B7CE7922A7C42A50097E60F /* PlasticPollutionView.swift */,
+				7B7CE7942A7C42B40097E60F /* ClimateChangeView.swift */,
+				7B7CE7962A7C42BF0097E60F /* SunscreenView.swift */,
 				7B7CE75B2A7A2B1C0097E60F /* aileron */,
 				7B7CE73E2A7A263B0097E60F /* Codec Pro ExtraBold.ttf */,
 				DA24767B2A78610F009C5F6F /* Preview Content */,
@@ -240,9 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7CE7932A7C42A50097E60F /* PlasticPollutionView.swift in Sources */,
 				DAF4F1CB2A7C1CEA00670F29 /* DonationsView.swift in Sources */,
 				7B7CE7892A7B03C20097E60F /* LearnView.swift in Sources */,
+				7B7CE7972A7C42BF0097E60F /* SunscreenView.swift in Sources */,
 				DAF4F1CD2A7C2D4400670F29 /* QuizView.swift in Sources */,
+				7B7CE7952A7C42B40097E60F /* ClimateChangeView.swift in Sources */,
 				DAF4F1C52A7AEBE500670F29 /* SpreadAwarenessView.swift in Sources */,
 				DA2476782A78610D009C5F6F /* ContentView.swift in Sources */,
 				DAF4F1C92A7C1A9B00670F29 /* ResourcesView.swift in Sources */,
