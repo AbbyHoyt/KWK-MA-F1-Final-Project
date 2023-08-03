@@ -96,6 +96,19 @@ struct LearnView: View {
                         
                         .padding(5)
                         
+                        NavigationLink(destination: QuizView()){
+                            Text("quiz")
+                                .font(.custom("Codec Pro ExtraBold", size: 20))
+                                .foregroundColor(cream)
+                                .padding(10)
+                                .background(brown)
+                                .cornerRadius(20)
+                                .fontWeight(.semibold)
+                        }
+                        .navigationBarBackButtonHidden()
+                        
+                        .padding(5)
+                        
                         NavigationLink(destination: AboutUsView()){
                             Text("about us")
                                 .font(.custom("Codec Pro ExtraBold", size: 20))
