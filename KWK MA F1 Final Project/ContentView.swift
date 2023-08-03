@@ -40,9 +40,10 @@ struct ContentView: View {
                                     .font(.custom("Codec Pro ExtraBold", size: 70))
                                     .foregroundColor(red)
                                 
-                                Text("OF CORAL REEFS THREATENED BY 2050")
+                                Text("Of coral reefs threatened by 2050")
                                     .font(.custom("Aileron Bold Italic", size: 25))
                                     .foregroundColor(red)
+                                    .textCase(.uppercase)
                             }
                             .padding()
                             
@@ -51,9 +52,10 @@ struct ContentView: View {
                                     .font(.custom("Codec Pro ExtraBold", size: 70))
                                     .foregroundColor(red)
                                 
-                                Text("WILL SERIOUSLY DEGRADE IN THE NEXT DECADE")
+                                Text("Will seriously degrade in the next decade")
                                     .font(.custom("Aileron Bold Italic", size: 25))
                                     .foregroundColor(red)
+                                    .textCase(.uppercase)
                             }
                             .padding()
                             
@@ -62,9 +64,10 @@ struct ContentView: View {
                                     .font(.custom("Codec Pro ExtraBold", size: 70))
                                     .foregroundColor(red)
                                 
-                                Text("OF REEFS DAMAGED BEYOND REPAIR")
+                                Text("Of reefs damaged beyond repair")
                                     .font(.custom("Aileron Bold Italic", size: 25))
                                     .foregroundColor(red)
+                                    .textCase(.uppercase)
                             }
                             .padding()
                             
@@ -73,9 +76,10 @@ struct ContentView: View {
                                     .font(.custom("Codec Pro ExtraBold", size: 70))
                                     .foregroundColor(red)
                                 
-                                Text("OF DAMAGE WAS DONE BY HUMANS")
+                                Text("Of damage was done by humans")
                                     .font(.custom("Aileron Bold Italic", size: 25))
                                     .foregroundColor(red)
+                                    .textCase(.uppercase)
                             }
                             .padding()
                             

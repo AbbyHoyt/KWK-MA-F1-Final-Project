@@ -26,6 +26,7 @@
 		7B7CE77C2A7A2B1C0097E60F /* Aileron-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE76B2A7A2B1C0097E60F /* Aileron-Black.otf */; };
 		7B7CE77D2A7A2B1C0097E60F /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */; };
 		7B7CE7892A7B03C20097E60F /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE7882A7B03C20097E60F /* LearnView.swift */; };
+		7B7CE78B2A7B26FA0097E60F /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */; };
 		DA2476762A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */; };
 		DA2476782A78610D009C5F6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2476772A78610D009C5F6F /* ContentView.swift */; };
 		DA24767A2A78610F009C5F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2476792A78610F009C5F6F /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		7B7CE76B2A7A2B1C0097E60F /* Aileron-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Black.otf"; sourceTree = "<group>"; };
 		7B7CE76C2A7A2B1C0097E60F /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
 		7B7CE7882A7B03C20097E60F /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
 		DA2476722A78610D009C5F6F /* KWK MA F1 Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK MA F1 Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_MA_F1_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		DA2476772A78610D009C5F6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */,
 				DA2476772A78610D009C5F6F /* ContentView.swift */,
 				DAF4F1C42A7AEBE500670F29 /* SpreadAwarenessView.swift */,
+				7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */,
 				7B7CE7882A7B03C20097E60F /* LearnView.swift */,
 				DAF4F1C62A7AFA5600670F29 /* FactGeneratorView.swift */,
 				DA2476792A78610F009C5F6F /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 				DAF4F1C52A7AEBE500670F29 /* SpreadAwarenessView.swift in Sources */,
 				DA2476782A78610D009C5F6F /* ContentView.swift in Sources */,
 				DAF4F1C72A7AFA5600670F29 /* FactGeneratorView.swift in Sources */,
+				7B7CE78B2A7B26FA0097E60F /* AboutUsView.swift in Sources */,
 				DA2476762A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
