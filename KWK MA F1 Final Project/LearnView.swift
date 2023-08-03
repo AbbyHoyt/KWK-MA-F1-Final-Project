@@ -42,6 +42,7 @@ struct LearnView: View {
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
                             .padding(.top, 0)
+                            .padding(.bottom, 20)
                         
                         NavigationLink(destination: FactGeneratorView()){
                             Text("learn about the issue")
