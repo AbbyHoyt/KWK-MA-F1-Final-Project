@@ -45,6 +45,12 @@ struct DonationsView: View {
                             .multilineTextAlignment(.center)
                             .padding(10)
                         
+                        Text("Consider donating to groups supporting coral reefs! Click the links below to learn about charitable organizations.")
+                            .font(.custom("Aileron Bold", size: 20))
+                            .foregroundColor(red)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                        
                         Link("Coral Reef Alliance", destination: URL(string: "https://give.coral.org/give/406853/?_gl=1*hjhf2i*_gcl_au*MjEzNDI0ODE3OC4xNjkxMDg0NjQ0&_ga=2.214254999.1606398470.1691084645-244231327.1691084645#!/donation/checkout")!)
                             .font(.custom("Codec Pro ExtraBold", size: 20))
                             .foregroundColor(cream)
