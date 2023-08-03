@@ -40,7 +40,7 @@ struct SpreadAwarenessView: View {
                         .multilineTextAlignment(.center)
                         .padding(10)
                     
-                    Text("Fill out the fields below to generate a personalized message to share with a leader or representative in your community.")
+                    Text("Be a coral champion! Fill out the fields below to generate a personalized message to share with a leader or representative in your community.")
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
                         .multilineTextAlignment(.center)
