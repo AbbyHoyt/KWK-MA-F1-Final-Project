@@ -88,6 +88,7 @@ struct AboutUsView: View {
                         .foregroundColor(red)
                 }
             }
+            .frame(height: nil)
         }
     }
 }

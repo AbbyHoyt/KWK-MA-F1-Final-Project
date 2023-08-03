@@ -32,7 +32,6 @@ struct LearnView: View {
                                 .cornerRadius(250)
                                 .padding(5)
                                 .frame(width: 200.0, height: 200.0)
-
                         }
                         
                         Text("explore")
@@ -65,6 +64,20 @@ struct LearnView: View {
                                 .navigationBarTitleDisplayMode(.inline)
                                 .navigationBarHidden(true)
                         }
+                        
+                        NavigationLink(destination: AboutUsView()){
+                            Text("about us")
+                                .font(.custom("Codec Pro ExtraBold", size: 20))
+                                .foregroundColor(cream)
+                                .padding(10)
+                                .background(brown)
+                                .cornerRadius(20)
+                                .fontWeight(.semibold)
+                                .navigationTitle("Back to Explore")
+                                .navigationBarTitleDisplayMode(.inline)
+                                .navigationBarHidden(true)
+                        }
+                        
                         Spacer()
                     }
                 }
