@@ -23,7 +23,7 @@ struct LearnView: View {
                 coral
                     .ignoresSafeArea()
                 ScrollView {
-                    VStack {
+                    VStack(){
                         
                         NavigationLink(destination: ContentView()){
                             Image("home")
@@ -32,13 +32,15 @@ struct LearnView: View {
                                 .cornerRadius(250)
                                 .padding(5)
                                 .frame(width: 75.0, height: 75.0)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding(.leading, 10.0)
                         }
-                        
+            
                         Text("explore")
                             .font(.custom("Codec Pro ExtraBold", size: 35))
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
-                            .padding(10)
+                            .padding(.top, 0)
                         
                         NavigationLink(destination: FactGeneratorView()){
                             Text("learn about the issue")
