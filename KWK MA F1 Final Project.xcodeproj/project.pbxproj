@@ -33,6 +33,8 @@
 		DA24767D2A78610F009C5F6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA24767C2A78610F009C5F6F /* Preview Assets.xcassets */; };
 		DAF4F1C52A7AEBE500670F29 /* SpreadAwarenessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1C42A7AEBE500670F29 /* SpreadAwarenessView.swift */; };
 		DAF4F1C72A7AFA5600670F29 /* FactGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1C62A7AFA5600670F29 /* FactGeneratorView.swift */; };
+		DAF4F1C92A7C1A9B00670F29 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1C82A7C1A9B00670F29 /* ResourcesView.swift */; };
+		DAF4F1CB2A7C1CEA00670F29 /* DonationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1CA2A7C1CEA00670F29 /* DonationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		DA24767C2A78610F009C5F6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAF4F1C42A7AEBE500670F29 /* SpreadAwarenessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadAwarenessView.swift; sourceTree = "<group>"; };
 		DAF4F1C62A7AFA5600670F29 /* FactGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactGeneratorView.swift; sourceTree = "<group>"; };
+		DAF4F1C82A7C1A9B00670F29 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		DAF4F1CA2A7C1CEA00670F29 /* DonationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				7B7CE75A2A7A28B80097E60F /* KWK-MA-F1-Final-Project-Info.plist */,
 				DA2476752A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift */,
 				DA2476772A78610D009C5F6F /* ContentView.swift */,
+				DAF4F1C82A7C1A9B00670F29 /* ResourcesView.swift */,
+				DAF4F1CA2A7C1CEA00670F29 /* DonationsView.swift */,
 				DAF4F1C42A7AEBE500670F29 /* SpreadAwarenessView.swift */,
 				7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */,
 				7B7CE7882A7B03C20097E60F /* LearnView.swift */,
@@ -231,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF4F1CB2A7C1CEA00670F29 /* DonationsView.swift in Sources */,
 				7B7CE7892A7B03C20097E60F /* LearnView.swift in Sources */,
 				DAF4F1C52A7AEBE500670F29 /* SpreadAwarenessView.swift in Sources */,
 				DA2476782A78610D009C5F6F /* ContentView.swift in Sources */,
+				DAF4F1C92A7C1A9B00670F29 /* ResourcesView.swift in Sources */,
 				DAF4F1C72A7AFA5600670F29 /* FactGeneratorView.swift in Sources */,
 				7B7CE78B2A7B26FA0097E60F /* AboutUsView.swift in Sources */,
 				DA2476762A78610D009C5F6F /* KWK_MA_F1_Final_ProjectApp.swift in Sources */,
