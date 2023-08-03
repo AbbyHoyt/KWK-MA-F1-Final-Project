@@ -70,7 +70,7 @@ struct AboutUsView: View {
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
                     
-                    Image("placeholder")
+                 /*   Image("placeholder")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(250)
@@ -84,7 +84,7 @@ struct AboutUsView: View {
                     
                     Text("About Charlotte...")
                         .font(.custom("Aileron Bold", size: 20))
-                        .foregroundColor(red)
+                        .foregroundColor(red) */
                     
                     
                     Spacer()
