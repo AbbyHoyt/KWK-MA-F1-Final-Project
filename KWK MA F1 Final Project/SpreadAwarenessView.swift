@@ -47,9 +47,10 @@ struct SpreadAwarenessView: View {
                         .padding()
                     
                     // Name
-                    Text("WHAT IS YOUR NAME?")
+                    Text("What is your name?")
                         .font(.custom("Aileron Bold Italic", size: 20))
                         .foregroundColor(red)
+                        .textCase(.uppercase)
                     
                     TextField(text: $name) {
                         Text("Name...")
@@ -66,9 +67,10 @@ struct SpreadAwarenessView: View {
                     .padding(.leading, 10.0)
                     
                     // Recipient
-                    Text("WHO ARE YOU WRITING?")
+                    Text("Who are you writing?")
                         .font(.custom("Aileron Bold Italic", size: 20))
                         .foregroundColor(red)
+                        .textCase(.uppercase)
                     
                     TextField(text: $recipient) {
                         Text("Recipient...")
@@ -85,9 +87,10 @@ struct SpreadAwarenessView: View {
                     .padding(.leading, 10.0)
                     
                     // Message
-                    Text("WHAT IS YOUR MESSAGE?")
+                    Text("What is your message?")
                         .font(.custom("Aileron Bold Italic", size: 20))
                         .foregroundColor(red)
+                        .textCase(.uppercase)
                     
                     TextField(text: $message){
                         Text("Something you learned...")

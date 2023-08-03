@@ -32,6 +32,7 @@ struct LearnView: View {
                                 .cornerRadius(250)
                                 .padding(5)
                                 .frame(width: 200.0, height: 200.0)
+
                         }
                         
                         Text("explore")
