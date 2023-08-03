@@ -25,6 +25,18 @@ struct AboutUsView: View {
             ScrollView {
                 
                 VStack {
+                    NavigationLink(destination: LearnView()){
+                        Image("menu")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .cornerRadius(250)
+                            .padding(5)
+                            .frame(width: 75.0, height: 75.0)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 10.0)
+                    }
+                    .navigationBarBackButtonHidden()
+                    
                     Text("about us")
                          .font(.custom("Codec Pro ExtraBold", size: 35))
                          .foregroundColor(red)

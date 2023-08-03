@@ -35,6 +35,7 @@ struct LearnView: View {
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(.leading, 10.0)
                         }
+                        .navigationBarBackButtonHidden()
             
                         Text("explore")
                             .font(.custom("Codec Pro ExtraBold", size: 35))
@@ -50,9 +51,8 @@ struct LearnView: View {
                                 .background(brown)
                                 .cornerRadius(20)
                                 .fontWeight(.semibold)
-                                .navigationTitle("Back to Explore")
-                                .navigationBarTitleDisplayMode(.inline)
                         }
+                        .navigationBarBackButtonHidden()
                             
                         NavigationLink(destination: SpreadAwarenessView()){
                             Text("spread awareness")
@@ -62,10 +62,8 @@ struct LearnView: View {
                                 .background(brown)
                                 .cornerRadius(20)
                                 .fontWeight(.semibold)
-                                .navigationTitle("Back to Explore")
-                                .navigationBarTitleDisplayMode(.inline)
-                                .navigationBarHidden(true)
                         }
+                        .navigationBarBackButtonHidden()
                         
                         NavigationLink(destination: AboutUsView()){
                             Text("about us")
@@ -75,10 +73,8 @@ struct LearnView: View {
                                 .background(brown)
                                 .cornerRadius(20)
                                 .fontWeight(.semibold)
-                                .navigationTitle("Back to Explore")
-                                .navigationBarTitleDisplayMode(.inline)
-                                .navigationBarHidden(true)
                         }
+                        .navigationBarBackButtonHidden()
                         
                         Spacer()
                     }
