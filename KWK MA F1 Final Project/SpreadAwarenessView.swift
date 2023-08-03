@@ -120,7 +120,7 @@ struct SpreadAwarenessView: View {
                     .padding(.leading, 10.0)
                     
                     Button("generate message") {
-                        generatedMessage = "Dear \(recipient), my name is \(name). I am writing to inform you about coral reef decline. One fun fact I learned from this app was \(message)."
+                        generatedMessage = "Dear \(recipient), my name is \(name). I am writing to inform you about coral reef decline. One fact I learned from this app was \(message)."
                     }
                     .font(.custom("Codec Pro ExtraBold", size: 20))
                     .padding(10)
