@@ -24,7 +24,6 @@ struct SpreadAwarenessView: View {
     @State private var generatedMessage = ""
     
     var body: some View {
-        
         ZStack {
             // Background Color, Ignore Safe Area
             coral
