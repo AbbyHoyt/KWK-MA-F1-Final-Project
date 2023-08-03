@@ -48,7 +48,7 @@ struct QuizView: View {
                             .multilineTextAlignment(.center)
                             .padding(10)
                         
-                        Text("See how much you know abour coral reefs in this true or false quiz!")
+                        Text("See how much you know about coral reefs in this true or false quiz!")
                             .font(.custom("Aileron Bold", size: 20))
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
@@ -210,7 +210,16 @@ struct QuizView: View {
                         .padding(.bottom, 20.0)
                         
                         Button("tell me how I did") {
-                           quizResult = "You got \(correctScore)/5 questions correct!"
+                            if correctScore >= 5 {
+                                quizResult = "Awesome job! You got \(correctScore)/5 questions correct!"
+                            }
+                            else if correctScore >= 3 {
+                                quizResult = "Not bad, you got \(correctScore)/5 questions correct."
+                            }
+                            else {
+                                quizResult = "You got \(correctScore)/5 questions correct. Check out the other pages of our app and try again to see if you can improve your score."
+                            }
+                
                         }
                         .font(.custom("Codec Pro ExtraBold", size: 20))
                         .padding(10)
@@ -219,7 +228,11 @@ struct QuizView: View {
                         .cornerRadius(20)
                         
                         Text(quizResult)
-                            .padding(10)
+                            .font(.custom("Aileron Bold", size: 20))
+                            .foregroundColor(red)
+                            .multilineTextAlignment(.center)
+                            .padding()
+
                         
                         Button("restart quiz") {
                             correctScore = 0
