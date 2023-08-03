@@ -42,7 +42,7 @@ struct LearnView: View {
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
                             .padding(.top, 0)
-                            .padding(.bottom, 20)
+                            .padding(.bottom, 15)
                         
                         NavigationLink(destination: FactGeneratorView()){
                             Text("learn about the issue")
@@ -54,6 +54,8 @@ struct LearnView: View {
                                 .fontWeight(.semibold)
                         }
                         .navigationBarBackButtonHidden()
+                        
+                        .padding(5)
                             
                         NavigationLink(destination: SpreadAwarenessView()){
                             Text("spread awareness")
@@ -66,6 +68,8 @@ struct LearnView: View {
                         }
                         .navigationBarBackButtonHidden()
                         
+                        .padding(5)
+                        
                         NavigationLink(destination: AboutUsView()){
                             Text("about us")
                                 .font(.custom("Codec Pro ExtraBold", size: 20))
@@ -76,6 +80,8 @@ struct LearnView: View {
                                 .fontWeight(.semibold)
                         }
                         .navigationBarBackButtonHidden()
+                        
+                        .padding(5)
                         
                         Spacer()
                     }
