@@ -131,6 +131,7 @@ struct SpreadAwarenessView: View {
                     Text(generatedMessage)
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
+                        .multilineTextAlignment(.center)
                         .padding()
                 }
             }
