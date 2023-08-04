@@ -121,7 +121,7 @@ struct AboutUsView: View {
                         .padding(.horizontal, 5)
                         .frame(width: 400.0, height: 200.0)
                     
-                    Text("This is our final project for Kode With Klossy's Mobile App Development camp! We all live near the ocean (Hailey in Kauai, Hawaii and Abby and Charlotte in Seattle, Washington) and wanted to make something that brought awareness to coral reef decline!")
+                    Text("This is our final project for Kode With Klossy's 2023 Mobile App Development camp! We all live near the ocean (Hailey in Kauai, Hawaii and Abby and Charlotte in Seattle, Washington) and wanted to make something that brought awareness to coral reef decline!")
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
                         .multilineTextAlignment(.center)
