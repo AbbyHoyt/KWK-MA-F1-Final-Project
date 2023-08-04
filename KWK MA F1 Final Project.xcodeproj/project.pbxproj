@@ -39,6 +39,7 @@
 		DAF4F1C92A7C1A9B00670F29 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1C82A7C1A9B00670F29 /* ResourcesView.swift */; };
 		DAF4F1CB2A7C1CEA00670F29 /* DonationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1CA2A7C1CEA00670F29 /* DonationsView.swift */; };
 		DAF4F1CD2A7C2D4400670F29 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1CC2A7C2D4400670F29 /* QuizView.swift */; };
+		DAF4F1CF2A7D52A200670F29 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4F1CE2A7D52A200670F29 /* CountdownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		DAF4F1C82A7C1A9B00670F29 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 		DAF4F1CA2A7C1CEA00670F29 /* DonationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsView.swift; sourceTree = "<group>"; };
 		DAF4F1CC2A7C2D4400670F29 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		DAF4F1CE2A7D52A200670F29 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				DAF4F1CC2A7C2D4400670F29 /* QuizView.swift */,
 				DAF4F1C42A7AEBE500670F29 /* SpreadAwarenessView.swift */,
 				7B7CE78A2A7B26FA0097E60F /* AboutUsView.swift */,
+				DAF4F1CE2A7D52A200670F29 /* CountdownView.swift */,
 				7B7CE7882A7B03C20097E60F /* LearnView.swift */,
 				DAF4F1C62A7AFA5600670F29 /* FactGeneratorView.swift */,
 				DA2476792A78610F009C5F6F /* Assets.xcassets */,
@@ -251,6 +254,7 @@
 			files = (
 				7B7CE7932A7C42A50097E60F /* PlasticPollutionView.swift in Sources */,
 				DAF4F1CB2A7C1CEA00670F29 /* DonationsView.swift in Sources */,
+				DAF4F1CF2A7D52A200670F29 /* CountdownView.swift in Sources */,
 				7B7CE7892A7B03C20097E60F /* LearnView.swift in Sources */,
 				7B7CE7972A7C42BF0097E60F /* SunscreenView.swift in Sources */,
 				DAF4F1CD2A7C2D4400670F29 /* QuizView.swift in Sources */,
