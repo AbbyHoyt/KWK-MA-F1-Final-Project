@@ -109,6 +109,16 @@ struct LearnView: View {
                         
                         .padding(5)
                         
+                        Link("coral countdown", destination: URL(string: "https://kwk-ma-final-project-countdown-timer.choyt707.repl.co")!)
+                            .font(.custom("Codec Pro ExtraBold", size: 20))
+                            .foregroundColor(cream)
+                            .padding(10)
+                            .background(brown)
+                            .cornerRadius(20)
+                            .fontWeight(.semibold)
+                        
+                        .padding(5)
+                        
                         NavigationLink(destination: AboutUsView()){
                             Text("about us")
                                 .font(.custom("Codec Pro ExtraBold", size: 20))
