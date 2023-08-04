@@ -51,7 +51,7 @@ struct AboutUsView: View {
                 }
                 
                 VStack {
-                    Image("placeholder")
+                    Image("hailey")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(250)
@@ -69,7 +69,7 @@ struct AboutUsView: View {
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 10.0)
                     
-                    Image("placeholder")
+                    Image("abby")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(250)
@@ -87,7 +87,7 @@ struct AboutUsView: View {
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 10.0)
                     
-                    Image("placeholder")
+                    Image("charlotte")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(250)
@@ -109,7 +109,7 @@ struct AboutUsView: View {
                 .padding()
                 
                 VStack {
-                    Text("000")
+                    Text("about the Project")
                         .font(.custom("Aileron Bold Italic", size: 25))
                         .foregroundColor(red)
                         .textCase(.uppercase)
@@ -121,7 +121,11 @@ struct AboutUsView: View {
                         .padding(.horizontal, 5)
                         .frame(width: 400.0, height: 200.0)
                     
-                    Text("...")
+                    Text("This is our final project for Kode With Klossy's Mobile App Development camp! We all live near the ocean (Hailey in Kauai, Hawaii and Abby and Charlotte in Seattle, Washington) and wanted to make something that brought awareness to coral reef decline!")
+                        .font(.custom("Aileron Bold", size: 20))
+                        .foregroundColor(red)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 10.0)
                 }
             }
             .frame(height: nil)
