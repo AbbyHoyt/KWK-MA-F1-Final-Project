@@ -43,7 +43,7 @@ struct AboutUsView: View {
                          .multilineTextAlignment(.center)
                          .padding(10)
                      
-                     Text("Learn about us!")
+                     Text("Our generation could be the last to see coral reefs. Learn about us and our project!")
                          .font(.custom("Aileron Bold", size: 20))
                          .foregroundColor(red)
                          .multilineTextAlignment(.center)
