@@ -45,11 +45,17 @@ struct SunscreenView: View {
                             .padding(.top, 0)
                             .padding(.bottom, 15)
                         
-                        Text("Some text here")
+                        Text("One of the easiest ways individuals can prevent coral reef decline is changing their sunscreen. 14,000 tons of sunscreen are deposited into our oceans each year. Chemicals to avoid when looking for reef-safe sunscreen are Oxybenzone and Octinoxate. Other chemicals such as Benzophenone-1, Benzophenone-8, OD-PABA, 4-Methylbenzylidene camphor, 3-Benzylidene camphor, and Octocrylene can be harmful too. The Coral Reef Alliance recommends buying sunscreen with non-nano titanium oxide or zinc oxide as an active ingredient. (Non-nano means that sunscreen particles are over 100 nanometers and nano means sunscreen particles are under 100 nanometers. Non-nano sunscreen is safer for marine life.)")
                             .font(.custom("Aileron Bold", size: 20))
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
                             .padding()
+                        
+                        Image("sunscreenBottle")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(5)
+                            .frame(width: 300.0)
                         
                         Spacer()
                     }

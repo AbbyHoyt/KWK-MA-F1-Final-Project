@@ -45,11 +45,17 @@ struct ClimateChangeView: View {
                             .padding(.top, 0)
                             .padding(.bottom, 15)
                         
-                        Text("Some text here")
+                        Text("Climate change is ocean change. As climate change worsens, so will the coral reef crisis. Earth’s oceans absorb 93% of heat attributed to climate change. While the ocean absorbing CO2 in Earth’s atmosphere slowly halts climate change, it consequently changes ocean chemistry and negatively affects marine life. While repairing damaged coral reefs may be very difficult, we must do all we can to preserve those that remain.")
                             .font(.custom("Aileron Bold", size: 20))
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
                             .padding()
+                        
+                        Image("coralReef")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(5)
+                            .frame(width: 300.0)
                         
                         Spacer()
                     }

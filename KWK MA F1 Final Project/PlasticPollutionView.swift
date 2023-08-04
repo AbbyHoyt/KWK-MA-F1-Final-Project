@@ -45,11 +45,17 @@ struct PlasticPollutionView: View {
                             .padding(.top, 0)
                             .padding(.bottom, 15)
                         
-                        Text("Some text here")
+                        Text("Pollutants, plastics, and microplastics are all considered coral reef stressors (things that worsen the coral reef crisis). Plastic, which often originates on land but makes it to waterways, can suffocate, damage, or even kill corals. Plastics and microplastics can both cover sunlight and result in low oxygen, which impedes coral growth, weakens coral health, and alters coral’s photosynthetic performance.")
                             .font(.custom("Aileron Bold", size: 20))
                             .foregroundColor(red)
                             .multilineTextAlignment(.center)
                             .padding()
+                        
+                        Image("plasticBottles")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(5)
+                            .frame(width: 300.0)
                         
                         Spacer()
                     }

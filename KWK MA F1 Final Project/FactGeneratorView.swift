@@ -119,6 +119,12 @@ struct FactGeneratorView: View {
                         }
                         .navigationBarBackButtonHidden()
                         
+                        Image("waveSeperator")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(5)
+                            .frame(width: 300.0)
+                        
                         VStack {
                             
                             Text("Click the button to learn more about coral reef decline!")
