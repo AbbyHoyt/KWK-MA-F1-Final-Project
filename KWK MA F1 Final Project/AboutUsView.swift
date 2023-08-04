@@ -63,9 +63,11 @@ struct AboutUsView: View {
                         .foregroundColor(red)
                         .textCase(.uppercase)
                                         
-                    Text("About Hailey...")
+                    Text("Hi, I’m Hailey! I am 15 years old, from Kauai, Hawaii. I love the ocean, and surfing.")
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 10.0)
                     
                     Image("placeholder")
                         .resizable(resizingMode: .stretch)
@@ -79,15 +81,17 @@ struct AboutUsView: View {
                         .foregroundColor(red)
                         .textCase(.uppercase)
                                         
-                    Text("About Abby...")
+                    Text("Hello! I’m Abby, a rising senior from Washington. I’m so glad you’ve stumbled upon our app and I hope you learn something new and share it with others!")
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 10.0)
                     
                     Image("placeholder")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(250)
-                        .padding(5)
+                        .padding(.horizontal, 5)
                         .frame(width: 200.0, height: 200.0)
                     
                     Text("Charlotte")
@@ -95,9 +99,29 @@ struct AboutUsView: View {
                         .foregroundColor(red)
                         .textCase(.uppercase)
                                         
-                    Text("About Charlotte...")
+                    Text("Hi! I’m Charlotte! I’ll be in 12th grade in the fall and I live in Seattle, Washington. One ocean animal I am especially fascinated by is peppermint angelfish!")
                         .font(.custom("Aileron Bold", size: 20))
                         .foregroundColor(red)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 10.0)
+                }
+                
+                .padding()
+                
+                VStack {
+                    Text("000")
+                        .font(.custom("Aileron Bold Italic", size: 25))
+                        .foregroundColor(red)
+                        .textCase(.uppercase)
+                    
+                    Image("map")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(250)
+                        .padding(.horizontal, 5)
+                        .frame(width: 400.0, height: 200.0)
+                    
+                    Text("...")
                 }
             }
             .frame(height: nil)
